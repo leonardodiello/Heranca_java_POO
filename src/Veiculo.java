@@ -18,4 +18,8 @@ public class Veiculo {
         System.out.println("Ano: " + ano);
     }
 
+    public void mover(){
+        System.out.print("O veículo está se movendo.");
+    }
+
 }

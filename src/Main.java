@@ -38,10 +38,12 @@ public class Main {
 
         carro.exibirInformacoes();
         carro.abrirPortas();
+        carro.mover();
 
-        System.out.println();
+        System.out.println("\n");
 
         moto.exibirInformacoes();
         moto.empinar();
+        moto.mover();
     }
 }

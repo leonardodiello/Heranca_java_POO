@@ -11,4 +11,8 @@ public class Moto extends Veiculo{
         System.out.println("A moto está empinada");
     }
 
+    @Override
+    public void mover() {
+        System.out.print("A moto está se movendo.");
+    }
 }

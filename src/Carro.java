@@ -11,4 +11,8 @@ public class Carro extends Veiculo{
         System.out.println("As " + quantidadePortas + " portas foram abertas");
     }
 
+    @Override
+    public void mover() {
+        System.out.print("O carro está andando.");
+    }
 }
